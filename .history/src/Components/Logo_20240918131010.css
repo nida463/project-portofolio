@@ -1,0 +1,45 @@
+/* src/components/Navbar.css */
+
+/* Logo Bar */
+.logo-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Menyebar logo dan menu items */
+  align-items: center;
+  padding: 42px 68px;
+  gap: 68px 86px;
+
+  width: 1280px;
+  height: 130.83px;
+
+  background: #FFFFFF;
+}
+
+/* Styling untuk logo */
+.logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 0px; /* Tidak ada padding di dalam logo */
+}
+
+/* Ukuran spesifik untuk logo */
+.logo img {
+  width: 49px; /* Ukuran lebar logo */
+  height: 30px; /* Ukuran tinggi logo */
+  object-fit: contain; /* Menjaga aspek rasio gambar */
+}
+
+/* Subtitle */
+.logo-subtitle {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px; /* Sama dengan tinggi logo */
+  color: #2D2D2D;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,48 @@
+.testimonial {
+    width: 1232px;
+  }
+  
+  .testimonial-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    opacity: 0; /* Ganti dengan 1 untuk terlihat */
+  }
+  
+  .testimonial-item {
+    background: #f3f3f3;
+    width: 394.67px;
+    height: auto; /* Biarkan otomatis */
+    padding: 42px 0 0 0;
+    gap: 68px;
+  }
+  
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-avatar {
+    width: 50px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 50px; /* Sesuaikan ukuran sesuai kebutuhan */
+    border-radius: 50%;
+  }
+  
+  .testimonial-keterangan {
+    margin-left: 10px; /* Jarak antara gambar dan teks */
+  }
+  
+  .testimonial-start {
+    display: flex;
+  }
+  
+  .testimonial-star {
+    width: 20px; /* Sesuaikan ukuran bintang sesuai kebutuhan */
+    height: 20px; /* Sesuaikan ukuran bintang sesuai kebutuhan */
+  }
+  

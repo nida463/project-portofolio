@@ -1,0 +1,53 @@
+/* Navigation */
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  padding: 24px 42px;
+  gap: 24px;
+
+  width: 1280px;
+  height: 78px;
+  background: #FFFFFF;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 49px;
+  height: 30px;
+}
+
+.logo img {
+  width: 49px;
+  height: 30px;
+  object-fit: contain; /* Menjaga aspek rasio gambar */
+}
+
+/* Logo Subtitle */
+.logo-subtitle {
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2D2D2D;
+  margin-left: 16px; /* Jarak dari logo */
+}
+
+/* Menu Items */
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  
+  width: 209px;
+  height: 27px;
+}

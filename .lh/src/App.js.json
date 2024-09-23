@@ -1,0 +1,186 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 42,
+            "patches": [
+                {
+                    "date": 1726577930458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726577947832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+import React from 'react';\n+import './App.css';\n+import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n+import Header from './components/Header';  // Mengimpor komponen Header\n+import Skills from './components/Skills';  // Mengimpor komponen Skills\n+import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n+\n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Header />  {/* Panggil komponen Header */}\n+      <Skills />  {/* Panggil komponen Skills */}\n+      <LogoBar />  {/* Panggil komponen LogoBar */}\n+      <header className=\"App-header\">\n+        <p>\n+          Welcome to my React App! {/* Ini hanya contoh konten */}\n+        </p>\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                },
+                {
+                    "date": 1726578597372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import React from 'react';\n import './App.css';\n-import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n import Header from './components/Header';  // Mengimpor komponen Header\n import Skills from './components/Skills';  // Mengimpor komponen Skills\n import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n \n"
+                },
+                {
+                    "date": 1726578602484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n import React from 'react';\n import './App.css';\n-import Header from './components/Header';  // Mengimpor komponen Header\n-import Skills from './components/Skills';  // Mengimpor komponen Skills\n-import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n+import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726578611035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n import React from 'react';\n import './App.css';\n-import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726578620612,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,10 @@\n import React from 'react';\n import './App.css';\n+import Navbar from './components/Navbar';\n+import Header from './components/Header';\n+import Skills from './components/Skills';\n+import LogoBar from './components/LogoBar';\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726578846903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +0,0 @@\n-import React from 'react';\n-import './App.css';\n-import Navbar from './components/Navbar';\n-import Header from './components/Header';\n-import Skills from './components/Skills';\n-import LogoBar from './components/LogoBar';\n-\n-function App() {\n-  return (\n-    <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navbar */}\n-      <Header />  {/* Panggil komponen Header */}\n-      <Skills />  {/* Panggil komponen Skills */}\n-      <LogoBar />  {/* Panggil komponen LogoBar */}\n-      <header className=\"App-header\">\n-        <p>\n-          Welcome to my React App! {/* Ini hanya contoh konten */}\n-        </p>\n-      </header>\n-    </div>\n-  );\n-}\n-\n-export default App;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726578895296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,20 @@\n+import React from 'react';\n+import './App.css';\n+import Navbar from './omponents/Navbar';  // Mengimpor komponen Navbar\n+import Header from './components/Header';  // Mengimpor komponen Header\n \n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Header />  {/* Panggil komponen Header */}\n+      <header className=\"App-header\">\n+        <p>\n+          Welcome to my React App! {/* Ini hanya contoh konten */}\n+        </p>\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726578904510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react';\n import './App.css';\n-import Navbar from './omponents/Navbar';  // Mengimpor komponen Navbar\n-import Header from './components/Header';  // Mengimpor komponen Header\n+import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n+import Header from './omponents/Header';  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726578912200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +0,0 @@\n-import React from 'react';\n-import './App.css';\n-import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n-import Header from './omponents/Header';  // Mengimpor komponen Header\n-\n-function App() {\n-  return (\n-    <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navbar */}\n-      <Header />  {/* Panggil komponen Header */}\n-      <header className=\"App-header\">\n-        <p>\n-          Welcome to my React App! {/* Ini hanya contoh konten */}\n-        </p>\n-      </header>\n-    </div>\n-  );\n-}\n-\n-export default App;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726578957137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,24 @@\n+import React from 'react';\n+import './App.css';\n+import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n+import Header from './components/Header';  // Mengimpor komponen Header\n+import Skills from './components/Skills';  // Mengimpor komponen Skills\n+import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n+\n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Header />  {/* Panggil komponen Header */}\n+      <Skills />  {/* Panggil komponen Skills */}\n+      <LogoBar />  {/* Panggil komponen LogoBar */}\n+      <header className=\"App-header\">\n+        <p>\n+          Welcome to my React App! {/* Ini hanya contoh konten */}\n+        </p>\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                },
+                {
+                    "date": 1726578973003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react';\n import './App.css';\n-import Navbar from './components/Navbar';  // Mengimpor komponen Navbar\n-import Header from './components/Header';  // Mengimpor komponen Header\n+import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n+import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './components/Skills';  // Mengimpor komponen Skills\n import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n \n function App() {\n"
+                },
+                {
+                    "date": 1726578994667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Skills from './components/Skills';  // Mengimpor komponen Skills\n-import LogoBar from './components/LogoBar';  // Mengimpor komponen LogoBar\n+import Skills from './Components/Skills';  // Mengimpor komponen Skills\n+import LogoBar from './omponents/LogoBar';  // Mengimpor komponen LogoBar\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579055914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import LogoBar from './omponents/LogoBar';  // Mengimpor komponen LogoBar\n+import Logo from './Components/LogoBar';  // Mengimpor komponen LogoBar\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579066628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import Logo from './Components/LogoBar';  // Mengimpor komponen LogoBar\n+import Logo from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579075719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import Logo from './Components/Logo';  // Mengimpor komponen Logo\n+import LogoB from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579088730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,17 +2,17 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import LogoB from './Components/Logo';  // Mengimpor komponen Logo\n+import LogoBar from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n       <Skills />  {/* Panggil komponen Skills */}\n-      <LogoBar />  {/* Panggil komponen LogoBar */}\n+      <Logo />  {/* Panggil komponen LogoBar */}\n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726579107694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import LogoBar from './Components/Logo';  // Mengimpor komponen Logo\n+import Logo from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579153223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Skills from './Components/Skills';  // Mengimpor komponen Skills\n-import Logo from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726579169679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,9 @@\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n-      <Skills />  {/* Panggil komponen Skills */}\n-      <Logo />  {/* Panggil komponen LogoBar */}\n+      \n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726580165103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n+import Header from './Components/Header';  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n-      \n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726580171945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Header from './Components/Header';  // Mengimpor komponen Header\n+import Logo from './Components/Header';  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580179214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/Header';  // Mengimpor komponen Header\n+import Logo from './Components/a  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580184776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/a  // Mengimpor komponen Header\n+import Logo from './Components/Logo  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580191202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/Logo  // Mengimpor komponen Header\n+import Logo from './Components/Logo ''  // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580197698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/Logo ''  // Mengimpor komponen Header\n+import Logo from './Components/Logo '; // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580213554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/Logo '; // Mengimpor komponen Header\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580232708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n+import Logo from './components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n"
+                },
+                {
+                    "date": 1726580389510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './components/Logo';  // Mengimpor komponen Logo\n+import Logo from './Components/Logo';  // Mengimpor komponen Logo\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n+      \n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726580409329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n-      \n+      <Logo />  {/* Panggil komponen Logo */}\n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726586587253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import React from 'react';\n+import './App.css';\n+import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n+import Header from './Components/Header';  // Mengimpor komponen Header\n+import Logo from './Components/Logo';  // Mengimpor komponen Logo\n+import Skills from './components/Skills';  // Mengimpor komponen Skills\n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Header />  {/* Panggil komponen Header */}\n+      <Logo />  {/* Panggil komponen Logo */}\n+      <header className=\"App-header\">\n+        <p>\n+          Welcome to my React App! {/* Ini hanya contoh konten */}\n+        </p>\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                },
+                {
+                    "date": 1726586594656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,31 +2,10 @@\n import './App.css';\n import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n import Header from './Components/Header';  // Mengimpor komponen Header\n import Logo from './Components/Logo';  // Mengimpor komponen Logo\n-import Skills from './components/Skills';  // Mengimpor komponen Skills\n-function App() {\n-  return (\n-    <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navbar */}\n-      <Header />  {/* Panggil komponen Header */}\n-      <Logo />  {/* Panggil komponen Logo */}\n-      <header className=\"App-header\">\n-        <p>\n-          Welcome to my React App! {/* Ini hanya contoh konten */}\n-        </p>\n-      </header>\n-    </div>\n-  );\n-}\n+import Skills from './Components/Skills';  // Mengimpor komponen Skills\n \n-export default App;\n-import React from 'react';\n-import './App.css';\n-import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n-import Header from './Components/Header';  // Mengimpor komponen Header\n-import Logo from './Components/Logo';  // Mengimpor komponen Logo\n-\n function App() {\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n"
+                },
+                {
+                    "date": 1726586616578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n       <Logo />  {/* Panggil komponen Logo */}\n+      <Skills />  {/* Panggil komponen Skills */}\n       <header className=\"App-header\">\n         <p>\n           Welcome to my React App! {/* Ini hanya contoh konten */}\n         </p>\n"
+                },
+                {
+                    "date": 1726650935004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,26 @@\n import React from 'react';\n import './App.css';\n-import Navbar from './Components/Navbar';  // Mengimpor komponen Navbar\n+import Navbar from './Components/Navbar';  \n import Header from './Components/Header';  // Mengimpor komponen Header\n import Logo from './Components/Logo';  // Mengimpor komponen Logo\n import Skills from './Components/Skills';  // Mengimpor komponen Skills\n+import Gallery from './Components/Gallery';  // Import Gallery\n+import Testimonial from './Components/Testimonial'; // Import testimonial\n+import Contact from './Components/Contact'; // Pastikan path sesuai dengan lokasi Contact.js\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Navbar />  {/* Panggil komponen Navbar */}\n       <Header />  {/* Panggil komponen Header */}\n       <Logo />  {/* Panggil komponen Logo */}\n       <Skills />  {/* Panggil komponen Skills */}\n+      <Gallery />  {/* Tambahkan komponen Gallery */}\n+      <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n+      <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n+\n       <header className=\"App-header\">\n-        <p>\n-          Welcome to my React App! {/* Ini hanya contoh konten */}\n-        </p>\n       </header>\n     </div>\n   );\n }\n"
+                },
+                {
+                    "date": 1726650943007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  \n-import Header from './Components/Header';  // Mengimpor komponen Header\n+import Header from './Components/Header';  \n import Logo from './Components/Logo';  // Mengimpor komponen Logo\n-import Skills from './Components/Skills';  // Mengimpor komponen Skills\n+import Skills from './Components/Skills';  \n import Gallery from './Components/Gallery';  // Import Gallery\n import Testimonial from './Components/Testimonial'; // Import testimonial\n import Contact from './Components/Contact'; // Pastikan path sesuai dengan lokasi Contact.js\n \n"
+                },
+                {
+                    "date": 1726650948667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react';\n import './App.css';\n import Navbar from './Components/Navbar';  \n import Header from './Components/Header';  \n-import Logo from './Components/Logo';  // Mengimpor komponen Logo\n+import Logo from './Components/Logo';  \n import Skills from './Components/Skills';  \n import Gallery from './Components/Gallery';  // Import Gallery\n import Testimonial from './Components/Testimonial'; // Import testimonial\n import Contact from './Components/Contact'; // Pastikan path sesuai dengan lokasi Contact.js\n"
+                },
+                {
+                    "date": 1726650955918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n import Navbar from './Components/Navbar';  \n import Header from './Components/Header';  \n import Logo from './Components/Logo';  \n import Skills from './Components/Skills';  \n-import Gallery from './Components/Gallery';  // Import Gallery\n-import Testimonial from './Components/Testimonial'; // Import testimonial\n+import Gallery from './Components/Gallery';  \n+import Testimonial from './Components/Testimonial'; \n import Contact from './Components/Contact'; // Pastikan path sesuai dengan lokasi Contact.js\n \n function App() {\n   return (\n"
+                },
+                {
+                    "date": 1726650961169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+import React from 'react';\n+import './App.css';\n+import Navbar from './Components/Navbar';  \n+import Header from './Components/Header';  \n+import Logo from './Components/Logo';  \n+import Skills from './Components/Skills';  \n+import Gallery from './Components/Gallery';  \n+import Testimonial from './Components/Testimonial'; \n+import Contact from './Components/Contact'; \n+\n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Header />  {/* Panggil komponen Header */}\n+      <Logo />  {/* Panggil komponen Logo */}\n+      <Skills />  {/* Panggil komponen Skills */}\n+      <Gallery />  {/* Tambahkan komponen Gallery */}\n+      <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n+      <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n+\n+      <header className=\"App-header\">\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                },
+                {
+                    "date": 1726650967362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navbar */}\n+      <Navbar />  {/* Panggil komponen Navba\n       <Header />  {/* Panggil komponen Header */}\n       <Logo />  {/* Panggil komponen Logo */}\n       <Skills />  {/* Panggil komponen Skills */}\n       <Gallery />  {/* Tambahkan komponen Gallery */}\n@@ -25,32 +25,4 @@\n   );\n }\n \n export default App;\n-import React from 'react';\n-import './App.css';\n-import Navbar from './Components/Navbar';  \n-import Header from './Components/Header';  \n-import Logo from './Components/Logo';  \n-import Skills from './Components/Skills';  \n-import Gallery from './Components/Gallery';  \n-import Testimonial from './Components/Testimonial'; \n-import Contact from './Components/Contact'; // Pastikan path sesuai dengan lokasi Contact.js\n-\n-function App() {\n-  return (\n-    <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navbar */}\n-      <Header />  {/* Panggil komponen Header */}\n-      <Logo />  {/* Panggil komponen Logo */}\n-      <Skills />  {/* Panggil komponen Skills */}\n-      <Gallery />  {/* Tambahkan komponen Gallery */}\n-      <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n-      <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n-\n-      <header className=\"App-header\">\n-      </header>\n-    </div>\n-  );\n-}\n-\n-export default App;\n"
+                },
+                {
+                    "date": 1726650980272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <Navbar />  {/* Panggil komponen Navba\n-      <Header />  {/* Panggil komponen Header */}\n+      <Navbar /> \n+      <Header />  \n       <Logo />  {/* Panggil komponen Logo */}\n       <Skills />  {/* Panggil komponen Skills */}\n       <Gallery />  {/* Tambahkan komponen Gallery */}\n       <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n"
+                },
+                {
+                    "date": 1726650988328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,10 @@\n   return (\n     <div className=\"App\">\n       <Navbar /> \n       <Header />  \n-      <Logo />  {/* Panggil komponen Logo */}\n-      <Skills />  {/* Panggil komponen Skills */}\n+      <Logo />  \n+      <Skills />  \n       <Gallery />  {/* Tambahkan komponen Gallery */}\n       <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n       <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n \n"
+                },
+                {
+                    "date": 1726650996408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n       <Navbar /> \n       <Header />  \n       <Logo />  \n       <Skills />  \n-      <Gallery />  {/* Tambahkan komponen Gallery */}\n-      <Testimonial /> {/* Tambahkan Testimonial di bawah gallery */}\n+      <Gallery /> \n+      <Testimonial /> \n       <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n \n       <header className=\"App-header\">\n       </header>\n"
+                },
+                {
+                    "date": 1726651001526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <Logo />  \n       <Skills />  \n       <Gallery /> \n       <Testimonial /> \n-      <Contact/> {/* Tambahkan Testimonial di bawah gallery */}\n+      <Contact/> {/* T\n \n       <header className=\"App-header\">\n       </header>\n     </div>\n"
+                }
+            ],
+            "date": 1726577930458,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

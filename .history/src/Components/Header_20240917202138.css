@@ -1,0 +1,80 @@
+/* General styles for the header */
+.header {
+    width: 1280px; /* Fill width */
+    height: auto; /* Hug height */
+    padding: 42px 24px;
+    display: flex;
+    justify-content: space-between; /* Content and image on both ends */
+    gap: 68px;
+    background-color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  /* Header content styling */
+  .header-content {
+    width: 620px; /* Fixed width for content */
+    height: auto; /* Hug height */
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  
+  /* Title and Subtitle styling */
+  .title-subtitle {
+    width: 620px;
+    height: 30px;
+    font-family: Epilogue, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  .visual-designer {
+    width: 620px;
+    font-family: Epilogue, sans-serif;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 69.7px;
+    text-align: left;
+  }
+  
+  .additional-content {
+    width: 620px;
+    font-family: Epilogue, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  /* Button styling */
+  .header-button {
+    padding: 24px 64px;
+    font-family: Epilogue, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 211px;
+    height: 78px;
+  }
+  
+  .header-button:hover {
+    background-color: 
+      #444444;
+  }
+  
+  /* Header image styling */
+  .header-image {
+    width: 480px;
+    height: 360px;
+  }
+  
+  .header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

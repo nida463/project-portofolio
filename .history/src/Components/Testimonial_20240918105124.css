@@ -1,0 +1,85 @@
+/* Testimonial Section */
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 24px;
+    gap: 42px;
+    width: 1280px;
+    height: 852px;
+    background: #FFFFFF;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Testimonial Title */
+.testimonial-title {
+    width: 186px;
+    height: 42px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Cards Section */
+.testimonial-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1232px;
+    height: 684px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 42px;
+    gap: 68px;
+    width: 394.67px;
+    min-width: 320px;
+    height: 330px;
+    background: #F3F3F3;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* Testimonial Image */
+.testimonial-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2D2D2D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

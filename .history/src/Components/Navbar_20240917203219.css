@@ -1,0 +1,48 @@
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 42px;
+    gap: 24px;
+  
+    width: 1280px;
+    height: 78px;
+  
+    background: #FFFFFF;
+  }
+  
+  /* Logo di kiri */
+  .logo {
+    width: 49px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  /* Menu Items di kanan */
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 24px;
+  
+    width: 209px;
+    height: 27px;
+  }
+  
+  /* Link untuk setiap menu item */
+  .menu-items a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .menu-items a:hover {
+    color: #444444;
+  }
+  

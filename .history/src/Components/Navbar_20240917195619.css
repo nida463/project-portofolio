@@ -1,0 +1,37 @@
+/* General styles for the navbar */
+.navbar {
+    width: 100%; /* Lebar full */
+    height: 80px; /* Tinggi navbar */
+    display: flex;
+    justify-content: space-between; /* Konten berada di kedua sisi */
+    align-items: center;
+    padding: 0 24px; /* Padding untuk jarak dengan tepi */
+    background-color: #2D2D2D; /* Warna background */
+  }
+  
+  /* Styling untuk logo di navbar */
+  .navbar-logo img {
+    height: 50px; /* Menyesuaikan tinggi logo */
+    object-fit: contain;
+  }
+  
+  /* Styling untuk link navbar */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 32px; /* Jarak antar link */
+  }
+  
+  .navbar-links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Epilogue, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color: #FFD700; /* Warna saat di-hover */
+  }
+  

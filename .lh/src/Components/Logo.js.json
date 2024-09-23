@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/Components/Logo.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1726580312239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726580596221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,12 @@\n   return (\r\n     <div className=\"logo-bar\">\r\n       {/* Menampilkan logo */}\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/google-logo.png\" alt=\"Google Logo\" />\r\n+        <img src=\"/img/Google-logo.png\" alt=\"Google Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/nike-logo.png\" alt=\"Nike Logo\" />\r\n+        <img src=\"/img/Nike-logo.png\" alt=\"Nike Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n         <img src=\"/img/samsung-logo.png\" alt=\"Samsung Logo\" />\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1726580601746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,12 +11,12 @@\n       <div className=\"logo\">\r\n         <img src=\"/img/Nike-logo.png\" alt=\"Nike Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/samsung-logo.png\" alt=\"Samsung Logo\" />\r\n+        <img src=\"/img/Samsung-logo.png\" alt=\"Samsung Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/apple-logo.png\" alt=\"Apple Logo\" />\r\n+        <img src=\"/img/Apple-logo.png\" alt=\"Apple Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n         <img src=\"/img/adidas-logo.png\" alt=\"Adidas Logo\" />\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1726580607404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n       <div className=\"logo\">\r\n         <img src=\"/img/Apple-logo.png\" alt=\"Apple Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/adidas-logo.png\" alt=\"Adidas Logo\" />\r\n+        <img src=\"/img/Adidas-logo.png\" alt=\"Adidas Logo\" />\r\n       </div>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1726582681061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,27 +0,0 @@\n-import React from 'react';\r\n-import './Logo.css';  // Mengimpor CSS untuk styling\r\n-\r\n-const Logo = () => {\r\n-  return (\r\n-    <div className=\"logo-bar\">\r\n-      {/* Menampilkan logo */}\r\n-      <div className=\"logo\">\r\n-        <img src=\"/img/Google-logo.png\" alt=\"Google Logo\" />\r\n-      </div>\r\n-      <div className=\"logo\">\r\n-        <img src=\"/img/Nike-logo.png\" alt=\"Nike Logo\" />\r\n-      </div>\r\n-      <div className=\"logo\">\r\n-        <img src=\"/img/Samsung-logo.png\" alt=\"Samsung Logo\" />\r\n-      </div>\r\n-      <div className=\"logo\">\r\n-        <img src=\"/img/Apple-logo.png\" alt=\"Apple Logo\" />\r\n-      </div>\r\n-      <div className=\"logo\">\r\n-        <img src=\"/img/Adidas-logo.png\" alt=\"Adidas Logo\" />\r\n-      </div>\r\n-    </div>\r\n-  );\r\n-};\r\n-\r\n-export default Logo;\r\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1726582728576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,26 @@\n-\n+import React from 'react';\r\n+import './Logo.css';  // Mengimpor CSS untuk styling\r\n+\r\n+const Logo = () => {\r\n+  return (\r\n+    <div className=\"logo-bar\">\r\n+      <div className=\"logo\">\r\n+        <img src=\"/img/google-logo.png\" alt=\"Google Logo\" />\r\n+      </div>\r\n+      <div className=\"logo\">\r\n+        <img src=\"/img/nike-logo.png\" alt=\"Nike Logo\" />\r\n+      </div>\r\n+      <div className=\"logo\">\r\n+        <img src=\"/img/samsung-logo.png\" alt=\"Samsung Logo\" />\r\n+      </div>\r\n+      <div className=\"logo\">\r\n+        <img src=\"/img/apple-logo.png\" alt=\"Apple Logo\" />\r\n+      </div>\r\n+      <div className=\"logo\">\r\n+        <img src=\"/img/adidas-logo.png\" alt=\"Adidas Logo\" />\r\n+      </div>\r\n+    </div>\r\n+  );\r\n+};\r\n+\r\n+export default Logo;\r\n"
+                },
+                {
+                    "date": 1726582963130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,21 +4,21 @@\n const Logo = () => {\r\n   return (\r\n     <div className=\"logo-bar\">\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/google-logo.png\" alt=\"Google Logo\" />\r\n+        <img src=\"/img/Google.png\" alt=\"Google Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/nike-logo.png\" alt=\"Nike Logo\" />\r\n+        <img src=\"/img/Nike.png\" alt=\"Nike Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/samsung-logo.png\" alt=\"Samsung Logo\" />\r\n+        <img src=\"/img/Samsung.png\" alt=\"Samsung Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/apple-logo.png\" alt=\"Apple Logo\" />\r\n+        <img src=\"/img/Apple.png\" alt=\"Apple Logo\" />\r\n       </div>\r\n       <div className=\"logo\">\r\n-        <img src=\"/img/adidas-logo.png\" alt=\"Adidas Logo\" />\r\n+        <img src=\"/img/Adidas.png\" alt=\"Adidas Logo\" />\r\n       </div>\r\n     </div>\r\n   );\r\n };\r\n"
+                },
+                {
+                    "date": 1726651107082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react';\r\n-import './Logo.css';  // Mengimpor CSS untuk styling\r\n+import './Logo.css';  \r\n \r\n const Logo = () => {\r\n   return (\r\n     <div className=\"logo-bar\">\r\n"
+                }
+            ],
+            "date": 1726580312239,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport './Logo.css';  // Mengimpor CSS untuk styling\r\n\r\nconst Logo = () => {\r\n  return (\r\n    <div className=\"logo-bar\">\r\n      {/* Menampilkan logo */}\r\n      <div className=\"logo\">\r\n        <img src=\"/img/google-logo.png\" alt=\"Google Logo\" />\r\n      </div>\r\n      <div className=\"logo\">\r\n        <img src=\"/img/nike-logo.png\" alt=\"Nike Logo\" />\r\n      </div>\r\n      <div className=\"logo\">\r\n        <img src=\"/img/samsung-logo.png\" alt=\"Samsung Logo\" />\r\n      </div>\r\n      <div className=\"logo\">\r\n        <img src=\"/img/apple-logo.png\" alt=\"Apple Logo\" />\r\n      </div>\r\n      <div className=\"logo\">\r\n        <img src=\"/img/adidas-logo.png\" alt=\"Adidas Logo\" />\r\n      </div>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Logo;\r\n"
+        }
+    ]
+}

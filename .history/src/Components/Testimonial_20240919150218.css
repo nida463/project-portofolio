@@ -1,0 +1,155 @@
+/* Testimonial Section */
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 24px;
+    gap: 42px;
+    width: 1280px;
+    height: 852px;
+    background: #FFFFFF;
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Cards Section */
+  .cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1232px;
+    height: 684px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Card Text */
+  .card-text {
+    width: 310.67px;
+    height: 90px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Client Image & Info */
+  .client-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 310.67px;
+    height: 88px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Client Image */
+  .client-image {
+    width: 50px;
+    height: 50px;
+    background: url('./img/client.png');
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  /* Client Info & Stars */
+  .client-info-stars {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+    width: 244.67px;
+    height: 88px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  /* Stars */
+  .stars {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 124px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    background: #2D2D2D;
+    border-radius: 1px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  /* Name & Company */
+  .name-company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 244.67px;
+    height: 57px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Client Name */
+  .client-name {
+    width: 244.67px;
+    height: 30px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  /* Company Name */
+  .company-name {
+    width: 244.67px;
+    height: 27px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2D2D2D;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  

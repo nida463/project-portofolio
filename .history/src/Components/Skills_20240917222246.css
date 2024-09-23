@@ -1,0 +1,49 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 24px;
+    gap: 42px;
+    width: 1280px;
+    height: auto;
+    background: #FFFFFF;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .skills-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 42px;
+    gap: 42px;
+    width: 394.67px;
+    height: 429px;
+    background: #FFFFFF;
+  }
+  
+  .skills-icon img {
+    width: 124px;
+    height: 124px;
+  }
+  
+  .skills-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .skills-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  

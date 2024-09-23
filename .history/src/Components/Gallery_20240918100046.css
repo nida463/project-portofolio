@@ -1,0 +1,65 @@
+/* Gallery Section */
+.gallery-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 1232px;
+    height: auto;
+  }
+  
+  /* Gallery Card */
+  .gallery-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  
+    width: 394.67px;
+    min-width: 320px;
+    height: 419px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+  
+  /* Gallery Image */
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Title & Description */
+  .gallery-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 394.67px;
+    height: 65px;
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .gallery-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .gallery-text p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  

@@ -1,0 +1,31 @@
+/* Logo Bar */
+.logo-bar {
+    display: flex;
+    justify-content: center; /* Logo berada di tengah */
+    align-items: center;
+    padding: 42px 68px; /* Padding sesuai spesifikasi */
+    gap: 68px; /* Jarak antar logo */
+    
+    width: 1280px; /* Lebar fill sesuai spesifikasi */
+    height: 130.83px; /* Hug tinggi */
+    background-color: #FFFFFF;
+    opacity: 1; /* Visibility */
+}
+
+/* Styling untuk setiap logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0px; /* Tidak ada padding di dalam logo */
+}
+
+/* Ukuran spesifik untuk logo */
+.logo img {
+    width: 116.07px;
+    height: 38.21px;
+    object-fit: contain; /* Menjaga aspek rasio gambar */
+    opacity: 1; /* Visibilitas gambar */
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/Components/Gallery.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1726587960355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726651114415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,95 @@\n-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n\\ No newline at end of file\n+/* Container untuk Gallery */\r\n+.gallery-container {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    align-items: center;\r\n+    padding: 0;\r\n+    gap: 32px; \r\n+    width: 100%;\r\n+}\r\n+\r\n+/* Latest work */\r\n+.latest-work {\r\n+    width: 191px;\r\n+    height: 42px;\r\n+    font-family: 'Epilogue';\r\n+    font-style: normal;\r\n+    font-weight: 600;\r\n+    font-size: 32px;\r\n+    line-height: 42px;\r\n+    text-align: center;\r\n+    color: #2D2D2D;\r\n+}\r\n+\r\n+/* Gallery Section */\r\n+.gallery-section {\r\n+    display: flex;\r\n+    flex-direction: row;\r\n+    flex-wrap: wrap;\r\n+    justify-content: space-between;\r\n+    align-items: flex-start;\r\n+    padding: 0px;\r\n+    gap: 24px;\r\n+    width: 1232px;\r\n+    height: auto;\r\n+}\r\n+\r\n+/* Gallery Card */\r\n+.gallery-card {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    align-items: flex-start;\r\n+    padding: 0px;\r\n+    gap: 24px;\r\n+    width: 394.67px;\r\n+    height: 419px;\r\n+    flex: none;\r\n+    order: 0;\r\n+    flex-grow: 1;\r\n+}\r\n+\r\n+/* Gallery Image */\r\n+.gallery-image {\r\n+    width: 100%;\r\n+    height: auto;\r\n+    object-fit: cover;\r\n+}\r\n+\r\n+/* Title & Description */\r\n+.gallery-text {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    align-items: flex-start;\r\n+    padding: 0px;\r\n+    gap: 8px;\r\n+    width: 394.67px;\r\n+    height: 65px;\r\n+    flex: none;\r\n+    order: 1;\r\n+    align-self: stretch;\r\n+    flex-grow: 0;\r\n+}\r\n+\r\n+/* Project Title */\r\n+.gallery-text h3 {\r\n+    width: 394.67px;\r\n+    height: 30px;\r\n+    font-family: 'Epilogue';\r\n+    font-style: normal;\r\n+    font-weight: 600;\r\n+    font-size: 20px;\r\n+    line-height: 30px;\r\n+    color: #2D2D2D;\r\n+}\r\n+\r\n+/* Subtitle */\r\n+.gallery-text p {\r\n+    width: 394.67px;\r\n+    height: 27px;\r\n+    font-family: 'Epilogue';\r\n+    font-style: normal;\r\n+    font-weight: 400;\r\n+    font-size: 17px;\r\n+    line-height: 27px;\r\n+    color: #2D2D2D;\r\n+}\r\n"
+                }
+            ],
+            "date": 1726587960355,
+            "name": "Commit-0",
+            "content": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+        }
+    ]
+}

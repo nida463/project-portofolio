@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/Components/Navbar.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1726577779515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1726579939179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,37 +1,48 @@\n-/* General styles for the navbar */\r\n+/* Navigation Bar */\r\n .navbar {\r\n-    width: 100%; /* Lebar full */\r\n-    height: 80px; /* Tinggi navbar */\r\n     display: flex;\r\n-    justify-content: space-between; /* Konten berada di kedua sisi */\r\n+    flex-direction: row;\r\n+    justify-content: space-between;\r\n     align-items: center;\r\n-    padding: 0 24px; /* Padding untuk jarak dengan tepi */\r\n-    background-color: #2D2D2D; /* Warna background */\r\n+    padding: 24px 42px;\r\n+    gap: 24px;\r\n+  \r\n+    width: 1280px;\r\n+    height: 78px;\r\n+  \r\n+    background: #FFFFFF;\r\n   }\r\n   \r\n-  /* Styling untuk logo di navbar */\r\n-  .navbar-logo img {\r\n-    height: 50px; /* Menyesuaikan tinggi logo */\r\n-    object-fit: contain;\r\n+  /* Logo di kiri */\r\n+  .logo {\r\n+    width: 49px;\r\n+    height: 30px;\r\n+    font-size: 24px;\r\n+    font-weight: 600;\r\n+    color: #000000;\r\n   }\r\n   \r\n-  /* Styling untuk link navbar */\r\n-  .navbar-links {\r\n+  /* Menu Items di kanan */\r\n+  .menu-items {\r\n     display: flex;\r\n-    list-style: none;\r\n-    gap: 32px; /* Jarak antar link */\r\n+    flex-direction: row;\r\n+    justify-content: flex-end;\r\n+    align-items: flex-start;\r\n+    gap: 24px;\r\n+  \r\n+    width: 209px;\r\n+    height: 27px;\r\n   }\r\n   \r\n-  .navbar-links li a {\r\n-    color: #FFFFFF;\r\n+  /* Link untuk setiap menu item */\r\n+  .menu-items a {\r\n+    font-size: 18px;\r\n+    font-weight: 400;\r\n+    color: #000000;\r\n     text-decoration: none;\r\n-    font-family: Epilogue, sans-serif;\r\n-    font-size: 18px;\r\n-    font-weight: 500;\r\n-    transition: color 0.3s ease;\r\n   }\r\n   \r\n-  .navbar-links li a:hover {\r\n-    color: #FFD700; /* Warna saat di-hover */\r\n+  .menu-items a:hover {\r\n+    color: #444444;\r\n   }\r\n   \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1726577779515,
+            "name": "Commit-0",
+            "content": "/* General styles for the navbar */\r\n.navbar {\r\n    width: 100%; /* Lebar full */\r\n    height: 80px; /* Tinggi navbar */\r\n    display: flex;\r\n    justify-content: space-between; /* Konten berada di kedua sisi */\r\n    align-items: center;\r\n    padding: 0 24px; /* Padding untuk jarak dengan tepi */\r\n    background-color: #2D2D2D; /* Warna background */\r\n  }\r\n  \r\n  /* Styling untuk logo di navbar */\r\n  .navbar-logo img {\r\n    height: 50px; /* Menyesuaikan tinggi logo */\r\n    object-fit: contain;\r\n  }\r\n  \r\n  /* Styling untuk link navbar */\r\n  .navbar-links {\r\n    display: flex;\r\n    list-style: none;\r\n    gap: 32px; /* Jarak antar link */\r\n  }\r\n  \r\n  .navbar-links li a {\r\n    color: #FFFFFF;\r\n    text-decoration: none;\r\n    font-family: Epilogue, sans-serif;\r\n    font-size: 18px;\r\n    font-weight: 500;\r\n    transition: color 0.3s ease;\r\n  }\r\n  \r\n  .navbar-links li a:hover {\r\n    color: #FFD700; /* Warna saat di-hover */\r\n  }\r\n  "
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+/* Title and Subtitle styling */
+.title-subtitle {
+  width: 100%; /* Sesuaikan dengan konten penuh */
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px; /* Kurangi line-height untuk mempersempit jarak antar baris */
+  color: #2D2D2D;
+  margin-bottom: 16px; /* Kurangi margin-bottom agar lebih rapat dengan elemen di bawahnya */
+}
+
+/* Visual Designer styling */
+.visual-designer {
+  width: 100%; /* Sesuaikan dengan konten penuh */
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 64px; /* Kurangi line-height untuk mempersempit jarak antar baris */
+  color: #2D2D2D;
+  margin-bottom: 24px; /* Kurangi margin-bottom agar lebih rapat dengan elemen di bawahnya */
+}
+
+/* Additional Content styling */
+.additional-content {
+  width: 100%; /* Sesuaikan dengan konten penuh */
+  font-family: 'Epilogue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px; /* Kurangi line-height agar teks lebih rapat */
+  color: #2D2D2D;
+  margin-bottom: 16px; /* Kurangi margin-bottom */
+}
+
+/* Button styling */
+.header-button {
+  padding: 16px 48px; /* Kurangi padding agar button lebih compact */
+  gap: 8px;
+  width: 211px;
+  height: auto; /* Biarkan tinggi mengikuti konten */
+}
